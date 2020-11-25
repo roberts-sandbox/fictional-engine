@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - master
-  schedule:
-    - cron: '24 */24 * * *'  # Once a day
+#  schedule:
+#    - cron: '24 */24 * * *'  # Once a day
 
 jobs:
   deploy:
