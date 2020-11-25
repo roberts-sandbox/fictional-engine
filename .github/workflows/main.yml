@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
 #  schedule:
 #    - cron: '24 */24 * * *'  # Once a day
 
